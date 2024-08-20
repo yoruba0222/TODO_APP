@@ -2,19 +2,6 @@ function App() {
     const { Container, Row, Col, Navbar, Nav } = ReactBootstrap;
     return (
         <Container>
-            <Navbar bg="dark" variant="dark">
-                <img
-                    src={LOGO}
-                    width="30"
-                    height="30"
-                    alt="React Bootstrap logo"
-                />
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-            </Navbar >
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
